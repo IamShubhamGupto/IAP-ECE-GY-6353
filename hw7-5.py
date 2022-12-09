@@ -1,10 +1,10 @@
 
-alpha = 0.125
-beta = 0.25
-rtt_s = 511
-rtt_d = 62.4
-rto = 200
-rtt_ms = [611.728, 521.166, 537.835]
+alpha = 0.25
+beta = 0.125
+rtt_s = 1
+rtt_d = 0.5
+rto = 3
+rtt_ms = [1, 2, 3, 4]
 
 for rtt_m in rtt_ms:
     new_rtt_s = alpha*rtt_m + (1-alpha)*rtt_s
